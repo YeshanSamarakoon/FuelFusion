@@ -1,0 +1,57 @@
+/* Header.module.css */
+.headerContainer {
+    max-width: 100%;
+    z-index: 50%;
+    padding-left: 50px;
+    padding-right: 50px 
+  }
+  
+  .logoLink {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .logoText {
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    /* Add other styles for the logo text */
+  }
+  
+  .navbarContainer {
+    display: none;
+  }
+
+
+  /*nav bar for desktop*/
+  .navcon1{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    gap: 0.5rem;
+    gap: 1rem;
+    border-radius: 50%; /* Circular shape */
+    padding: 0.5rem 1rem; /* Padding for content */
+
+  }
+
+  .navcon2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: fixed;
+    top: 20px;
+    right: 8px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 3rem 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    width: 64px;
+    z-index: 50;
+    border: 1px solid slate-900/5 ;
+  }
+
+ 
